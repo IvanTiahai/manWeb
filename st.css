@@ -1,0 +1,194 @@
+    #cart-button {
+        position: fixed;
+        top: 30px;
+        right: 10px;
+        background-color: #00b894;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        z-index: 1000;
+    }
+
+    #cart-button:hover {
+        background-color: #00a884;
+    }
+    
+    .product {
+        position: relative;
+        width: 20%;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #dfe6e9;
+        border-radius: 10px;
+        background-color: #ecf0f1;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .product a.viber-button {
+        display: none;
+        width: 85%;
+    }
+
+    .product:hover {
+        transform: scale(1.4);
+        z-index: 10;
+    }
+    
+    .product:hover p,
+    .product:hover a,
+    .product:hover .add-to-cart {
+        display: block;
+    }
+    
+    .product img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .product p {
+        font-size: 16px;
+        margin-bottom: 15px;
+        color: #636e72;
+        display: none;
+    }
+    
+
+    
+    .add-to-cart {
+        display: none;
+        background-color: #00b894;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        width: 15%;
+    }
+
+    .add-to-cart:hover {
+        background-color: #00b894;
+    }
+
+    .product .add-to-cart {
+        margin-top: auto; /* щоб кнопка перемістилася вниз */
+        background-color: #00b894;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .product .add-to-cart:hover {
+        background-color: #00b894;
+    }
+    
+#cart {
+    position: fixed;;
+    top: 50px;
+    right: 10px;
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid #dfe6e9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: none;
+    padding: 15px;
+}
+
+
+#cart h2 {
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: #2c3e50;
+}
+
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px;
+}
+
+.cart-item-content {
+    display: flex;
+    justify-content: start; 
+    align-items: center; 
+    padding: 5px 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.cart-item-content span {
+    font-size: 14px; 
+    color: #2c3e50;
+}
+
+.remove-item {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px; 
+}
+
+.remove-item:hover {
+    background-color: #ff4d4d;
+}
+
+/* Кнопка оформлення замовлення */
+#checkout {
+    position: relative;
+    bottom: -15px;
+    right: 0;
+    background-color: #00b894;
+    color: white;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    float: right;
+}
+
+#checkout:hover {
+    background-color: #00a884;
+}
+
+
+#submit-btn{
+    background-color: #00b894;
+    color: white;
+    padding: 6px 6px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    float: right;
+}
+#submit-btn:hover{
+    background-color: #00a884;
+}
+
+.closeX{
+    color: red;
+}

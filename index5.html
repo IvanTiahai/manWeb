@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Сувенірний магазин "Контраст"</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=elfsight-app-59e5540b-87bc-4cea-9786-064cee5372c&callback=initMap" async defer></script>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+</head>
+<header id="head">
+        <h1>logo</h1>
+        <div id="nav">
+            <a href="#" class="toggleMenu">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </a>
+            <ul>
+                <li><a href="index.html">Щоденники</a></li>
+                <li><a href="index2.html">Футболки</a></li>
+                <li><a href="index1.html">Холсти на підраминку</a></li>
+                <li><a href="index3.html">Чашки</a></li>
+                <li><a href="index4.html">Подушки</a></li>
+                <li><a href="index5.html">Контакти</a></li>
+            </ul>
+        </div>
+            <div class="search-container">
+
+        <input type="text" id="search-input" placeholder="Пошук..." />
+        <input type="button" id="search-btn" value="search">
+    </div>
+    <ul id="results-list"></ul>
+    <div id="favorites-btn">
+        <span>&#128722;</span> Кошик
+    </div>
+
+
+    </header>
+<body>
+<div class="contact-container">
+        <h1>Контактна інформація</h1>
+        <div class="contact-item">
+            <h2>Номери телефонів</h2>
+            <p>
+                <a href="viber://chat?number=%2B380992042379">
+                    <i class="fa-brands fa-viber"></i> +380992042379 (Viber)
+                </a>
+            </p>
+            <p>
+                <a href="viber://chat?number=%2B380677774308">
+                    <i class="fa-brands fa-viber"></i> +380677774308 (Viber)
+                </a>
+            </p>
+        </div>
+       <div class="contact-item">
+            <h2>Пошта</h2>
+            <p>
+                <a href="mailto:kontrast777@ukr.net">
+                    <i class="fas fa-envelope"></i> kontrast777@ukr.net
+                </a>
+            </p>
+        </div>
+         <div class="contact-item">
+            <h2>Сайт</h2>
+            <p><a href="https://kontrast-uman.netlify.app" target="_blank">
+                <i class="fas fa-globe"></i> kontrast-uman.netlify.app
+            </a></p>
+        </div>
+         <div class="contact-item">
+            <h2>Сторінка на Facebook</h2>
+            <p><a href="https://www.facebook.com/profile.php?id=100085132531735" target="_blank">
+                <i class="fab fa-facebook"></i> Facebook
+            </a></p>
+        </div>
+        <div class="contact-item">
+            <h2>Розміщення на Google Maps</h2>
+            <div id="google-maps">
+                <iframe id="google-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2630.3841296307314!2d30.21386147645839!3d48.75546027131835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d20d0a7c06ef87%3A0xe6511cd4a9009c0!2z0KTQvtGC0L7RgdCw0LvQvtC9ICLQmtCe0J3QotCg0JDQodCiIg!5e0!3m2!1suk!2sua!4v1719766581426!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="contact-item">
+            <h2>Відгуки</h2>
+            <div class="elfsight-app-59e5540b-87bc-4cea-9786-064cee5372cf" data-elfsight-app-lazy></div>
+        </div>
+        <div class="contact-item">
+            <h2>Графік роботи</h2>
+            <p>Дзвінки приймаються з 10:00 до 18:00</p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+    <div class="important-message">
+    <h2>Важливе повідомлення</h2>
+    <p>Шановні відвідувачі сайту, доводимо до Вашого відому, що розміщення фото матеріалів на нашому сайті не є комерційним, а лише показує майстерність та підхід до роботи авторів, а також має в своїй складовій елементи інтелектуальної власності дизайнерів Сувенірного магазину, що надає нам право публікації вищезгаданих творів на власному сайті. В разі незгоди із політикою студії або небажанням бачити публічно своє фото, просимо Вас <strong>ОСОБИСТО</strong> звертатись до студії за номером телефону <strong>+380992042379</strong> у робочі дні із 09-00 до 17-00 для врегулювання даних питань.</p>
+    <p>Дякуємо за порозуміння! Ласкаво просимо!!!</p>
+</div>
+    <footer>
+        <p>&copy; 2024 <br> <p>
+                <a href="viber://chat?number=%2B380992042379">
+                    <i class="fa-brands fa-viber"></i> +380992042379 (Viber)
+                </a>
+            </p>
+            <p>
+                <a href="viber://chat?number=%2B380677774308">
+                    <i class="fa-brands fa-viber"></i> +380677774308 (Viber)
+                </a>
+             <p>
+                <a href="mailto:kontrast777@ukr.net">
+                    <i class="fas fa-envelope"></i> kontrast777@ukr.net
+                </a>
+            </p></p>
+    </footer>
+</body>
+<script src="script.js"></script>
+<script src="btn.js"></script>
+</html>
